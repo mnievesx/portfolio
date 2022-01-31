@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Moderne Sans;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2);
+}
+* {
+  box-sizing: border-box;
+}
+
+#main {
+  margin: 0;
+  background: #000;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+#visuals {
+  margin: 0;
+  background: #000;
+  background-size: cover;
+}
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#fashion {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  position: sticky;
+  width: 100%;
+  text-align: center;
+  color: white;
+  transition: 0.4s;
+
+}
+header:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: grey;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  letter-spacing: 0.5rem;
+}
+
+#vheader {
+  overflow: hidden;
+  position:fixed;
+
+}
+nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: solid;
+  color: white;
+  padding: 2rem;
+
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8vmin;
+  font-weight: 700;
+  text-align: center;
+  margin: 2rem 3rem 0;
+  mix-blend-mode: hard-light;
+  color: white;
+}
+figure {
+  margin: 0;
+  visibility: hidden;
+}
+
+.class {
+  text-align: center;
+  margin: 2rem 3rem 0;
+  mix-blend-mode: hard-light;
+}
+
+.row {
+  display: grid;
+  width: 100%;
+  grid-gap: 0%;
+  padding: 15rem;
+  justify-content: center;
+  overflow: hidden;
+
+
+}
+
+
+  /* grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto; */
+
+/* 
+@media screen {
+  .column {
+  display: grid;
+  overflow: hidden;
+  grid-gap: 0px;
+  justify-content: center;
+  margin: 25%;
+  padding: 2rem; 
+   */

@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"name": "nycpics",
+		"path": "..\\nycpics"
+	},
+	{
+		"name": "photo-example",
+		"path": "..\\..\\photo-example"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "photo-example",
+    "livePreview.defaultPreviewPath": "c:\\Users\\mrnie\\photo-example\\index.html"
+  }
+}
